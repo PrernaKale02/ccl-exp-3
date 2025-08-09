@@ -12,8 +12,8 @@ body {
 }
 
 header {
-  background: #4a90e2;
-  color: white;
+  background: #e853d6;
+  color: rgb(0, 0, 0);
   padding: 2rem;
   text-align: center;
 }
@@ -55,7 +55,8 @@ form {
   flex-direction: column;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid #ccc;

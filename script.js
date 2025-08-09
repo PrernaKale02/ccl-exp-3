@@ -1,6 +1,5 @@
 document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault(); // Prevent actual form submission
-
+  e.preventDefault();
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
   const message = document.getElementById("message").value.trim();
@@ -12,10 +11,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     return;
   }
 
-  // Simulate form submission
   formMessage.textContent = `Thank you, ${name}! Your message has been sent.`;
   formMessage.style.color = "green";
 
-  // Reset form
   document.getElementById("contactForm").reset();
 });
